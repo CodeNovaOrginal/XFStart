@@ -1,0 +1,7 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Name=XFStart
+Comment=Windows-style start menu for XFCE
+Icon=view-app-grid-symbolic
+X-XFCE-Module=xfstart
+X-XFCE-Internal=false

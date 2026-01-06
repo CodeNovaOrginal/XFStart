@@ -1,0 +1,13 @@
+Source: xfstart
+Section: xfce
+Priority: optional
+Maintainer: CodeNova <CodeNova@gmail.com>
+Build-Depends: debhelper (>= 11), meson, libgtk-3-dev, libxfce4panel-2.0-dev, libglib2.0-dev, libgio2.0-dev
+Standards-Version: 4.5.0
+
+Package: xfstart
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Windows-style XFCE start menu
+ A modern start menu for XFCE inspired by Windows 10/11.
+ Includes search, categories, and system actions.
